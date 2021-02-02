@@ -38,7 +38,7 @@ window.onload = function(){
 	document.addEventListener('scroll', e => {
 
 		var currentMarginTop = 600;
-		var scrollArea = 1200;
+		var scrollArea = 4200;
 
 		var scrollTop = window.pageYOffset || window.scrollTop;
 		var scrollPrecent = scrollTop/scrollArea || 0
